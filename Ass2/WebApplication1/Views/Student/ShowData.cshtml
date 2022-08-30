@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "ShowData";
+    var name = TempData["Name"];
+    var age = TempData["Age"];
+    var address = TempData["Address"];
+}
+
+<h2>Show Info</h2>
+<h3>Name: @name</h3>
+<h3>Age: @age</h3>
+<h3>Address: @address</h3>
